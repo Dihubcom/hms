@@ -1,0 +1,4 @@
+Gender,age,maritalstatus,DOB,tribe,religion,phoneNo,email,nationality,state,lga,occupation,address,kinName,kinRelationship,kinPhone,kinEmail,kinoccupation,kinAddress
+
+
+"'+req.body.gender+'","'+req.body.age+'","'+req.body.maritalstatus+'","'+req.body.DOB+'","'+req.body.tribe+'","'+req.body.religion+'","'+req.body.phoneNo+'","'+req.body.email+'","'+req.body.nationality+'","'+req.body.state+'","'+req.body.lga+'","'+req.body.occupation+'","'+req.body.address+'","'+req.body.kinName+'","'+req.body.kinRelationship+'","'+req.body.kinPhone+'","'+req.body.kinEmail+'","'+req.body.kinoccupation+'","'+req.body.kinAddress+'",

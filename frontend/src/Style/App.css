@@ -1,0 +1,199 @@
+body{
+  background-color: gray ;
+}
+
+h1, h2, p, ul, li{
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+  padding: 3px;
+}
+
+ul.header li{
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 15px;
+
+}
+
+ul.header{
+  background-color: gray;
+  padding: 0px;
+
+
+}
+
+ul.header li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+
+
+}
+
+.content{
+  background-color: #fff;
+  padding: 30px;
+}
+
+.content li{
+  
+  margin-bottom: 10px;
+}
+
+.active{
+  background-color: #0099ff;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.Container{
+  margin-top: 40px;
+
+}
+
+.patientId:hover {
+  cursor: pointer;
+  color: blue;
+}
+.PatModal{
+margin: 300px;
+margin-top: 50px;
+margin-left:200px;
+width: 750px;
+height: 800px;
+
+}
+
+.patClarking{
+
+margin-left: 0px;
+font-size: 15px;
+
+}
+
+.prvVisit{
+  font-size: 15px;
+align-items: right; 
+color:green;
+}
+
+.otherPresentingComplaints {
+  margin: 50px;
+}
+
+
+.imageFig{
+border: 2px solid;
+height: 180px;
+font-size: 15px;
+
+}
+
+.dropdown {
+  background-color: #5c526e9a;
+  border: 0 solid rgb(23, 38, 170);
+  width: 200px;
+  cursor: pointer;
+  padding:5px;
+  margin: 0;
+}
+
+.EditModal{
+  margin: 300px;
+  margin-top: 50px;
+  margin-left:200px;
+  width: 750px;
+  height: 800px;
+
+}
+
+.pharmacyModule {
+  padding-top: 20px;
+}
+
+div label {
+  text-align: right;
+}
+
+.pharmacyModule .side-bar {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: left; 
+}
+
+.pharmacyModule li {
+  padding: 1px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+
+.pharmacyModule li:hover {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+}
+
+
+.btnS {
+  float: right;
+}
+.side-bar h4 {
+  font-weight: bold;
+}
+
+
+ /* assign patient to doctor table  */
+ .assignPatTable{
+margin-left: 50px;
+margin-top: 10px;
+ }
+
+ .moveToCenter {
+   text-align: center
+ }
+
+ .searchInput {
+   font-size: 20px;
+   padding: 10px;
+   border: none;
+   border-bottom: 2px solid black;
+   border-radius: 4px;
+   width: 685px;
+ }
+
+#btn {
+  margin-left: 620px
+ }
+
